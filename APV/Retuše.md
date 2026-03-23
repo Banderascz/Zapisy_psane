@@ -1,0 +1,8 @@
+- Správná retuše nemá být vidět
+- Používá se k odstranění rušivých elementů
+- Retuše Kůže
+	- Retuše kůže a vrásek
+- Jemné vady -
+	- Rozostření
+	- Frekvenční separace
+	- Aplikace inteligentních filtrů

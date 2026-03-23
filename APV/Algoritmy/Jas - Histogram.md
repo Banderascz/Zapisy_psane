@@ -1,0 +1,10 @@
+- Z RGB fotky můžeme snadno převést na černobílé pomocí **Jasové rovnice = 0,3 R + 0,59 G + 0,11 B**, jas nastaví odstín pro černobílé foto
+- Jas jsou odstíny od černé po šedou až po bílou (hodí se ke všemu černá, bílá, šedá)
+- **HISTOGRAM**
+	- Graf - kde na vodorovné ose jsou jasy (0-255), na svislé ose je počet bodů pro každý ten jas
+	- Fotka - [[histogram.jpg]]
+- **Dynamický rozsah** - rozdíl mezi nejtmavším a nejsvětlejším místem
+- **Pře-expozice** - žádná černá barva, graf jakože přetéká zleva(nahoře) do prava(dole), nelze už získat max kvalitu
+- **Pod-expozice** - opak
+- **Nízký kontrast** - z obou stran málo černé a bílé, dá se snadno opravit(roztáhnu histogram)
+- **Vysoký kontrast** - častý problém nedostatek čipu, nelze opravit jednině delete, histogram přepadává na obě strany

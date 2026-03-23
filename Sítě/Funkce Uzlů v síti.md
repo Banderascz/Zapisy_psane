@@ -1,0 +1,2 @@
+Klient - Sever
+Peer - Peer

@@ -1,0 +1,12 @@
+- Každý zdroj přerušení může být povoleno nebo zakázáno
+- Obsluha přerušení je asynchronní metoda vyvolaná událostí
+- Přerušení jsou povolená a zakázaná, aby fungovalo musí být povolené zdroje 
+- Přerušení mají priority, **nižší číslo obsluhy přerušení má větší prioritu**
+- Procesor kontroluje žádosti o obsluhu přerušení
+- Přerušení je voláno **ZDROJEM PŘERUŠENÍ**
+- V programu lze v částech kódu vypnout přijímání přerušení
+- Přerušení je požadavek pro procesor, aby na chvíli přerušil svojí činnost a udělal co chce přerušení a pak zase pokračuje ve své rozdělané činnosti
+- [[preruseni.png]]
+- Druhy:
+	- **Postupné přerušení** - přerušit se dá i přerušení [[postupne prer.png]], přerušení s nižším číslem má větší prioritu, když se čísla rovnají nebo je větší číslo, přerušení se přesunou do zásobníku 
+	- **Současné přerušení** - [[preruseni.png]], když se v současném okamžiku vyskytnou 2 nebo více požadavků ale s různou prioritou, vykoná se přerušení s vyšší prioritou a pak podle procesoru se, buď vykoná 1 a skočí se do hlavní funkce a pak na další přerušení nebo se postupně podle priorit vykonávají přerušení a pak až to skočí do main funkce.

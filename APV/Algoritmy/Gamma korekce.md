@@ -1,0 +1,3 @@
+úrovně v Photoshopu
+Faktor gama, nebo jednoduše gama, definuje vztah mezi číselnou hodnotou pixelu a jeho skutečnou svítivostí. Gamu lze najít ve fotoaparátech, obrazových souborech, obrazovkách a prakticky v jakémkoli jiném zobrazovacím zařízení.  
+Gama korekce je nutná kvůli tomu, že lidé vnímají světlo nelineárně. Lidské oko má vyšší citlivost ve stínech, zatímco při jasném osvětlení je méně citlivé na rozpoznání rozdílů v osvětlení. Senzor naopak vnímá světlo lineárně. Gama korekce pomáhá vylepšit techniku expozice, vytěžit maximum ze zpracování obrazu a efektivně využít paměť elektronických médií. Gama korekce, gama kódování nebo gama komprese znamenají totéž.
