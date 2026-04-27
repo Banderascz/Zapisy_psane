@@ -13,4 +13,4 @@ Adresa 0.0.0.0 - prázdná adresa,nechá zaplé rozhraní, ale je bez adresy
 
 **Alias na síť** - "*ifconfig eth0:2 192:168:2.40*" - odvolávám se na rozhraní eth0, ale s jinou adresou
 
-[^1]: Citace: Rostislav Sítějičný
+[^1]: Citace: Rastislav Sítějičný
