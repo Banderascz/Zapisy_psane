@@ -11,7 +11,7 @@ HostID
 0010000 = 33
 
 Poslední adresa v síti je tzv. **Broadcast**(př.: 192.168.1.255) vysílání určeno všem => v HostID je všechno = 1
-Počet adres celkem = 255
+Počet adres celkem = 255 (256 když počítáme broadcast)
 Počet použitelných adres = 254
 
 192.168.0.1/24 = 255.255.255.0 (ta maska je to /24 a i to 255 rovnají se)
@@ -31,7 +31,7 @@ Maska pro Třídu B
 
 Maska pro Třídu C
 255.255.255.0
-255 adres
+256 adres
 
 A-C = pro unicast
 
