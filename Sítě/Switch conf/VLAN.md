@@ -15,7 +15,7 @@ interface fastEthernet0/1
 switchport mode access          # abysme zrušili dynamic
 switchport access vlan 120
 ```
-Vždy po práci (před vypnutím) vymažu konfiguraci vlan.dat (v enable)
+Vždy před vypnutím vymažu konfiguraci vlan.dat (v enable)
 ```
 del vlan.dat
 # Zmáčknout 2x ENTER (RETURN)
