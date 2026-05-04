@@ -21,3 +21,10 @@ del vlan.dat
 # Zmáčknout 2x ENTER (RETURN)
 dir     # kontrola jestli je stále přítomný vlan.dat
 ```
+Nastavení Access na všechny z Dynamic
+```
+conf t
+interface range
+interface range fastEthernet0/1-24
+switchport mode access
+```
