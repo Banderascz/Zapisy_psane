@@ -28,3 +28,9 @@ interface range
 interface range fastEthernet0/1-24
 switchport mode access
 ```
+Trunk mode (vice vlan jede pres 1 kabel)
+```
+conf t
+interface range GigabitEthernet 0/1-2
+switchport mode trunk
+```
