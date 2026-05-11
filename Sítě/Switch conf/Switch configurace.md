@@ -3,6 +3,7 @@ Před vstupem do Switche
 ifconfig eth0 192.168.1.40
 //Přepojit žlutý kabel do bílý rack
 microcom /dev/ttyS1
+no
 ```
 automaticky udělám v terminálu switche
 ```
