@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sítě/IPV6.md",
+                "file": "Sítě/Switch conf/VLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Zpětné odkazy pro IPV6"
+              "title": "Zpětné odkazy pro VLAN"
             }
           },
           {
@@ -174,8 +174,7 @@
               "title": "advanced-tables-toolbar"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,17 +203,22 @@
   "lastOpenFiles": [
     "Sítě/Switch conf/Switch configurace.md",
     "Sítě/Switch conf/Switch (teorie).md",
-    "Sítě/Switch conf/SSH.md",
-    "Sítě/Switch conf/VLAN.md",
-    "Sítě/Kabely/Kabely.md",
-    "Sítě/Adresace mezi sítěma.md",
     "Sítě/Adresace v sítích.md",
-    "Sítě/Funkce Uzlů v síti.md",
-    "Sítě/IPV6.md",
-    "Sítě/NAT.md",
-    "Sítě/Linux login síť.md",
-    "README.md",
+    "Sítě/Adresace mezi sítěma.md",
+    "Sítě/Protected ports.md",
+    "Sítě/Switch conf/VTP.md",
+    "Sítě/Switch conf/VLAN.md",
     "Sítě/Switch conf/User.md",
+    "Sítě/Switch conf/SSH.md",
+    "Sítě/IPV6.md",
+    "Sítě/Vlan.md",
+    "Sítě/Funkce Uzlů v síti.md",
+    "Sítě/Linux login síť.md",
+    "Sítě/NAT.md",
+    "Sítě/Token.md",
+    "Sítě/URI, URL, URN.md",
+    "Sítě/Kabely/Kabely.md",
+    "README.md",
     "Sítě/Switch conf/Telnet.md",
     "Sítě/Kabely/kabely1.jpeg",
     "Sítě/Kabely/kabely2.jpeg",
@@ -223,21 +227,16 @@
     "Sítě/Kabely",
     "Sítě/Síťový model - TCP)IP.md",
     "Sítě/Switch conf",
-    "Sítě/URI, URL, URN.md",
-    "Sítě/Token.md",
     "Sítě/HUB.md",
     "Sítě/ISO(OSI.md",
     "Sítě/Server.md",
     "EPO - Bilek/Čítače nebo taky Časovač.md",
     "EPO - Bilek/Epo časovače=čítače.xopp~",
     "EPO - Bilek/Epo časovače=čítače.xopp",
-    "ZPV-Bilek/Bezpečnost v OS.md",
-    "EPO - Bilek/Přerušení.md",
     "EPO - Bilek/soucasne prer.png",
     "EPO - Bilek/postupne prer.png",
     "EPO - Bilek/preruseni.png",
     "EPO - Bilek",
-    "Čeština/CJ.md",
     "ZPV-Bilek/Directory-Structure.webp",
     "APV/Algoritmy/histogram.jpg",
     "Bez názvu.base",

@@ -34,7 +34,7 @@ conf t
 interface range GigabitEthernet 0/1-2
 switchport mode trunk
 ```
-Nastaveni gigabitETH. z dynamic
+Vypnutí upozornění z Gigabit portů (furt kecaj něco)
 ```
 ena
 conf t
