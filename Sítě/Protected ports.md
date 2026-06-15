@@ -1,0 +1,6 @@
+-  Minimum počet portů = 2
+- Maximum počet portů = -1
+- Protected vidí všechny NeProtected
+	- vidí jen to a koho co chci, aby viděl
+- NeProtected vidí vše
+- 

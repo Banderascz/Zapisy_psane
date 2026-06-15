@@ -11,7 +11,7 @@ name Leva   # jméno vlan
 Potom ping na switch v tty2, abych zjistil zda funguje
 ```
 conf t
-interface fastEthernet0/1
+interface fastEthernet0/1       # vetsinou leva, fastEthernet0/2 vetsinou prava
 switchport mode access          # abysme zrušili dynamic
 switchport access vlan 120
 ```
@@ -33,4 +33,11 @@ Trunk mode (vice vlan jede pres 1 kabel)
 conf t
 interface range GigabitEthernet 0/1-2
 switchport mode trunk
+```
+Nastaveni gigabitETH. z dynamic
+```
+ena
+conf t
+interface range gigabitEthernet 0/1-2
+switchport nonegotiate
 ```

@@ -2,6 +2,7 @@
 - nástupce IPv4 protokolu
 - Vysoký počet adres umožňuje hierarchické uspořádání, což zjednodušuje směrování a přečíslování
 - nemá broadcast => nahrazuje se multicastem
+- Velikost prefixu vždy 64 bitů
 
 ## Zápisy adres
 - Standardním způsobem jejího zápisu je osm skupin po čtyřech číslicích šestnáctkové soustavy (tj. 16 bitů dlouhých) navzájem oddělených dvojtečkami. Písmena jsou malá.
@@ -39,3 +40,13 @@
 |   2001::/32    | Teredo                                   |
 | 2001:db8::/32  | adresy pro příklady v dokumentech        |
 |   2002::/16    | 6to4                                     |
+
+### Prefix
+
+|  3  |            45             |          16           |
+| :-: | :-----------------------: | :-------------------: |
+| 001 | Globální směřovací prefix | Identifikátor podsítě |
+|     |     veřejná topologie     |   místní topologie    |
+|     |                           |                       |
+|     |          64 bitů          |                       |
+|     |  Identifikátor rozhraní   |                       |
