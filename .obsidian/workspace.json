@@ -170,8 +170,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -203,6 +203,8 @@
   "active": "7d0b51222fc52180",
   "lastOpenFiles": [
     "Sítě/Switch conf/Switch configurace.md",
+    "Sítě/Switch conf/Switch (teorie).md",
+    "Sítě/Switch conf/SSH.md",
     "Sítě/Switch conf/VLAN.md",
     "Sítě/Kabely/Kabely.md",
     "Sítě/Adresace mezi sítěma.md",
@@ -212,7 +214,6 @@
     "Sítě/NAT.md",
     "Sítě/Linux login síť.md",
     "README.md",
-    "Sítě/Switch conf/SSH.md",
     "Sítě/Switch conf/User.md",
     "Sítě/Switch conf/Telnet.md",
     "Sítě/Kabely/kabely1.jpeg",
@@ -237,7 +238,6 @@
     "EPO - Bilek/preruseni.png",
     "EPO - Bilek",
     "Čeština/CJ.md",
-    "ZPV-Bilek/Adresářová struktura - Linux.md",
     "ZPV-Bilek/Directory-Structure.webp",
     "APV/Algoritmy/histogram.jpg",
     "Bez názvu.base",
