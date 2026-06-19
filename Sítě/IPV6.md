@@ -3,6 +3,7 @@
 - Vysoký počet adres umožňuje hierarchické uspořádání, což zjednodušuje směrování a přečíslování
 - nemá broadcast => nahrazuje se multicastem
 - Velikost prefixu vždy 64 bitů
+- Možnost řetězení hlaviček pro speciální funkce
 
 ## Zápisy adres
 - Standardním způsobem jejího zápisu je osm skupin po čtyřech číslicích šestnáctkové soustavy (tj. 16 bitů dlouhých) navzájem oddělených dvojtečkami. Písmena jsou malá.
