@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sítě/IPV6.md",
+                "file": "Sítě/Síťové porty.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPV6"
+              "title": "Síťové porty"
             }
           }
         ]
@@ -202,10 +202,11 @@
   },
   "active": "7d0b51222fc52180",
   "lastOpenFiles": [
+    "Sítě/Protected ports.md",
+    "Sítě/IPV6.md",
     "Sítě/Adresace mezi sítěma.md",
     "Sítě/Adresace v sítích.md",
     "Sítě/Síťové porty.md",
-    "Sítě/Protected ports.md",
     "Sítě/NAT.md",
     "Sítě/Linux login síť.md",
     "Sítě/Switch conf/VTP.md",
@@ -220,7 +221,6 @@
     "Sítě/Switch conf/SSH.md",
     "Sítě/Kabely/Kabely.md",
     "Sítě/Funkce Uzlů v síti.md",
-    "Sítě/IPV6.md",
     "README.md",
     "Sítě/Kabely/kabely1.jpeg",
     "Sítě/Kabely/kabely2.jpeg",
