@@ -26,14 +26,26 @@ Prehistorické doby:
 Maska pro Třída A
 255.0.0.0
 16 milionů adres
+Privatní IP
+- 10.0.0.0 - 10.255.255.255
+- hostů: 16 777 214
+- Sítí: 126
 
 Maska pro Třídu B
 255.255.0.0
 16 tisíc adres
+Privatní IP
+- 176.16.0.0 - 171.31.255.255
+- hostů: 65 535
+- Sítí: 16 382
 
 Maska pro Třídu C
 255.255.255.0
 256 adres
+Privatní IP
+- 192.168.0.0 - 192.168.255.255
+- hostů: 256
+- Sítí: 2 000 000 cca.
 
 A-C = pro unicast
 
