@@ -1,5 +1,6 @@
 řeší se na síťové vrstvě
-zařizuje komunikaci mezi sítěma 
+zařizuje komunikaci mezi sítěmi
+síťové adresy jsou, protože z MAC adresy není poznat, zda je zařízení v naší síti
 protokol IP = Internetová adresa(IPv4/IPv6), Internetová = mezi síť
 **IPv4** = 32 bitů, informace do jaké sítě patříte, DHCP server ji nastavuje nebo uživatel, zapisuje se v desítkové soustavě po 8 bitech, oddělovače ".", nedůležité 0 se vypouštějí, při konfiguraci je nutné zadat i masku
 **Maska** = př.: 255.255.255.0, nemusí mít nutně 24 bitů(nejčastěji 24 bitů)
