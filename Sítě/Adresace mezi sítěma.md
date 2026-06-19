@@ -2,8 +2,8 @@
 zařizuje komunikaci mezi sítěmi
 síťové adresy jsou, protože z MAC adresy není poznat, zda je zařízení v naší síti
 protokol IP = Internetová adresa(IPv4/IPv6), Internetová = mezi síť
-**IPv4** = 32 bitů, informace do jaké sítě patříte, DHCP server ji nastavuje nebo uživatel, zapisuje se v desítkové soustavě po 8 bitech, oddělovače ".", nedůležité 0 se vypouštějí, při konfiguraci je nutné zadat i masku
-**Maska** = př.: 255.255.255.0, nemusí mít nutně 24 bitů(nejčastěji 24 bitů)
+**IPv4** = 32 bitů, informace do jaké sítě patříte, DHCP server ji nastavuje nebo uživatel, zapisuje se v desítkové soustavě po 8 bitech, oddělovače ".", nedůležité 0 se vypouštějí, při konfiguraci je **nutné zadat i masku**
+**Maska** = př.: 255.255.255.0, nemusí mít nutně 24 bitů(nejčastěji 24 bitů), u masky se musí vždy dát 0b1111000..., **nikdy** 0b1010101...
 IP adresa je složena z NETID a HOSTID
 11000000.10101000.11011010.00100001 = 192.168.218.33 = IPv4
 11111111.11111111.11111111.00000000 = 255.255.255.0 = maska
