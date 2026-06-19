@@ -1,7 +1,7 @@
 {
   "cssTheme": "Catppuccin",
   "baseFontSizeAction": true,
-  "baseFontSize": 18,
+  "baseFontSize": 22,
   "nativeMenus": true,
   "accentColor": ""
 }

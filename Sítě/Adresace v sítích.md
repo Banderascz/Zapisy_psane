@@ -12,7 +12,7 @@ zápis je v Hex
 		||...0 - unicast
 		||...1 - multicast
 		|....0 - globálně jedinečná
-		|....1 - lokálně jedinečná
+		|....1 - lokálně jedinečná(administrované), nemusí být jedinečná
 
 Adresa ff:ff:ff:ff:ff:ff = broadcast = vysílání které je dostupné všem
 u globálně jedinečné je: OUI - 3 bajtový identifikátor(OUI = Organizationally unique identifier) 
