@@ -77,3 +77,11 @@ switchport port-security aging type absolute
 	- type:
 		- absolute - učení od zapnutí
 		- inactivity - učení podle času
+Spadlý port Errorem zapnu:
+```
+conf t
+interface fastEthernet0/1
+no switchport port-security
+shutdown
+no shutdown
+```
