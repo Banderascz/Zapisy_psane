@@ -35,3 +35,9 @@ ip address 192.168.1.72 255.255.255.0 #to 72 je moje číslo 40 + 32
 no shutdown
 ```
 Vypnutí mačkat CTRL+Z nebo psát exit nakonec CTRL+X => přesun do terminálu
+Nastavení portů na portů na protected - 2 protected porty spolu nemůžou komunikovat
+```
+conf t
+interface fastEthernet0/1
+switchport protected
+```
