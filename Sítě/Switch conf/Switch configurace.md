@@ -85,3 +85,8 @@ no switchport port-security
 shutdown
 no shutdown
 ```
+Nastavení errordisable - zjistit co to dělá
+```
+conf t
+errordisable ?
+```
