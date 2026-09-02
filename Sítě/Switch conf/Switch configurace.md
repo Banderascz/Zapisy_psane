@@ -41,3 +41,39 @@ conf t
 interface fastEthernet0/1
 switchport protected
 ```
+Pro vypnutí protected
+```
+conf t
+interface fastEthernet0/1
+no switchport protected
+```
+Portsecurity - povolení je nějakých MAC adres (whitelist) - sticky učící mód (default)
+```
+conf t
+interface fastEthernet0/1
+switchport port-security mac-address sticky
+```
+nastavení maximum 5 adres na naučení
+```
+conf t
+interface fastEthernet0/1
+switchport port-security mac-address maximum 5
+```
+nastavení **violation** - protect=zahodí rámec, restrict=pošle zprávu správci, shutdown=schodí rámec pro port pro všechny, dokud ho někdo nezapne. 
+```
+conf t
+interface fastEthernet0/1
+switchport port-security violation protect
+```
+nastavení **aging** - jak dlouho si switch pamatuje MAC adresy
+```
+conf t
+interface fastEthernet0/1
+switchport port-security aging type absolute
+```
+- aging :
+	- static - whitelist zůstane navždy
+	- time - na jak dlouho si tě to pamatuje (čas)
+	- type:
+		- absolute - učení od zapnutí
+		- inactivity - učení podle času
